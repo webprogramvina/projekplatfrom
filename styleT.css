@@ -1,0 +1,61 @@
+body {
+  background-image: url("img/jeruk.jpg");
+  background-color: #f4f4f4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  padding: 200px;
+  margin: 25px;
+}
+
+h2 {
+  color: #ffffff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="date"] {
+  width: 180px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 25px;
+}
+
+.btn:last-child {
+  margin-right: 0; /* Hapus margin-right pada tombol terakhir */
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}

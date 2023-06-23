@@ -1,0 +1,66 @@
+/* untuk pembelian */
+body {
+  background-image: url("img/j4.jpeg"), url("img/j5.jpeg");
+  background-color: rgb(0, 0, 0);
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: left top, right top;
+  font-family: "Times New Roman", Times, serif;
+  color: #ffffff;
+  /* color untuk tulisan */
+}
+
+.container {
+  max-width: 400px; /* Ubah ukuran sesuai kebutuhan */
+  margin: 0 auto;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  background: rgba(62, 63, 63, 0.511);
+  color: #fff;
+  top: 37%;
+  left: 37%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 2%;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Tambahkan aturan berikut untuk membatasi lebar maksimum container */
+@media (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}
